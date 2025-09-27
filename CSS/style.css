@@ -1,23 +1,68 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.custom-navbar {
-        background-color: #f6c24a; /* Blue background */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
-        border-bottom-right-radius: 80px; /* Rounded bottom-right */
-        z-index: 1030;
-    }
 
-.custom-navbar div ul li a{
+.custom-navbar {
+    background-color: #f6c24a;
+    /* Blue background */
+    box-shadow: 0 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
+    /* Shadow */
+    border-bottom-right-radius: 80px;
+    /* Rounded bottom-right */
+    border-bottom-left-radius: 80px;
+    z-index: 1030;
+}
+
+.custom-navbar div ul li a {
     color: gray;
     font-size: 20px;
 }
 
-.custom-footer{
+.custom-footer {
     background-color: #f6c24a;
 }
-.custom-footer footer ul li a{
+
+.custom-footer footer ul li a {
     color: gray;
+    font-size: 20px;
+}
+
+#cards {
+    background-color: #5c493d;
+    /* Blue background */
+    box-shadow: 0 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
+    /* Shadow */
+    border-top-right-radius: 150px;
+    /* Rounded bottom-right */
+    border-top-left-radius: 150px;
+
+    border-bottom-right-radius: 120px;
+    /* Rounded bottom-right */
+    border-bottom-left-radius: 120px;
+    z-index: 1030;
+    color: white;
+}
+#cards .custom-price {
+    width: 20%;
+    background-color: #8a8a96;
+    color: aliceblue;
+    box-shadow: 0 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
+    /* Shadow */
+    border-top-right-radius: 10px;
+    /* Rounded bottom-right */
+    border-top-left-radius: 10px;
+    padding: 5px;
+}
+
+#cards .custom-button{
+    background-color: #bc7d55;
+    border: 2px solid #5c493d;;
+    width: 60%;
+}
+#cards .custom-button:hover{
+    background-color: #9e4e0c;
+    border: 2px solid #5c493d;;
+    width: 40%;
     font-size: 20px;
 }
